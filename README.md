@@ -158,6 +158,9 @@ Use the following commands on terminal to start with the project
   npm run dev
 </code></pre>
 
+The service will start running on localhost://3000(this is configurable based on .env file)
+
+
 
 ### Public API Service
 open a new terminal and use the following commands.
@@ -169,6 +172,8 @@ open a new terminal and use the following commands.
   npm start
   
 </code></pre>
+
+The service will start running on localhost://3001(this is configurable based on .env file)
 
 
 ### Frontend
@@ -182,9 +187,14 @@ open a new terminal and use the following commands.
     
 </pre></code>
 
+The service will start running on localhost://3002(this is configurable based on .env file)
+
+
 ## 📚 API Documentation
 
 ### 1) Authentication Endpoints
+
+if testing directly , use localhost://3000 for these endpoints.
 
 **1.1 Registers new user**
 
@@ -233,6 +243,9 @@ Response Example:
 }</code></pre>
 
 ### 2) Candidate Management
+
+if testing directly , use localhost://3000 for these endpoints.
+
 
 2.1) **Adds new candidate**
 
@@ -292,6 +305,9 @@ Response Example:
 ]</code></pre>
 
 ### 3) Public API Routes (Using API Key)
+
+if testing directly , use localhost://3001 for these endpoints.
+
 
 **3.1) Get user profile using API key**
 
